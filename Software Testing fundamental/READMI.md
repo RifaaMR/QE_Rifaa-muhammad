@@ -19,3 +19,12 @@
 1. Sebuah perusahaan e-commerce telah mengembangkan sebuah aplikasi yang dapat digunakan oleh pengguna dalam jual-beli barang, mendapatkan promo pada tanggal tertentu serta melihat video live streaming dari produk yang sedang dijual. Berdasarkan kasus tersebut, sebutkan berbagai teknik testing yang dapat digunakan pada aplikasi yang telah dikembangkan!
    Jawab
    Yang dapat dilakukan adalah dengan performance testing seperti speed test, scalability test dan stability test. Hal tersbut dilakukan karena sistem-sistem tersebut memerlukan waktu on time seperti live streaming dan promo pada tanggal tertentu.
+
+# Rangkuman Materi 
+software testing merupakan kegiatan yang dilakukan oleh seorang tester dengan tujuan untuk memastikan bahwa perangkat lunak yang sedang dikembangkan sudah sesuai dengan ketentuan yang telah ditetapkan. software testing penting untuk dilakukan karena beberapa alasan seperti dapat menghemat uang, meningkatkan kualitas produk, memperkuat keamanan dan dapat meningkatkan kepuasan pelanggan. 
+Dalam software testing terdapat beberapa platform yang umum untuk dilakukan pengujian seperti API, WEB, Mobile dan Dekstop. Ada beberapa tipe dalam pengujian perangkat lunak seperti functional testing, Non-functional testing dan maintenence.
+- functional testing : dibagi menjadi manual dan otomasi. manual adalah tester melakukan eksekusi test case dan kemudian menggenerate test report. sedangkan pengujian otomasi adalah tester membuat program otomasi untuk melakukan proses testing pada perangkat lunak yang sedang dikembangkan.
+- non functional testing : yang termasuk dalam non functional testing adalah performance testing, merupakan pengujian yang dilakukan untuk memastikan bahwa perangkat lunak dapat bekerja dengan baik di bawah beban kerja yang diharapkan. performance testing meliputi speed, scability dan stability.
+- maintenance testing : yang termasuk di dalamnya adalah regression testing, yaitu untuk memastikan bahwa fitur baru yang dikembangkan tidak berdampak buruk bagi program.
+pengujian perangkat lunak memiliki level yang berbeda-beda seperti unit testing, integration testing dan acceptance testing.
+  
