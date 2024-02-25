@@ -4,3 +4,4 @@ my fruits :
 - banana
 - rambutan 
 - durian
+- salak 
