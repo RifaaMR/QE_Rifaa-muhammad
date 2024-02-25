@@ -25,18 +25,24 @@ a. Tugas dari seorang software tester adalah
 - Menjalankan testing
 - Membuat laporan tentang bugs
 - Sebutkan berbagai skill yang dibutuhkan untuk menjadi seorang software tester!
-  b. Urutan karir software tester
+  
+b. Urutan karir software tester
+
 - Junior quality engineer (fresh graduate)
 - Quality engineer (1-2 tahun pengalaman)
 - Senior quality engineer (3 tahun lebih pengalaman)
 - Quality engineer lead (5-6 tahun pengalaman)
 - Manajer quality engineer (8-11 tahun pengalaman)
-  c. Karir alternatif lain sebagai software tester
+  
+c. Karir alternatif lain sebagai software tester
+
 - Performance testing
 - Penetration testing
 - System analyst
 - Scrum master
-  d. Cara menjadi software tester
+  
+d. Cara menjadi software tester
+
 - Software testing
 - Test case manajemen tools
 - Automation testing
