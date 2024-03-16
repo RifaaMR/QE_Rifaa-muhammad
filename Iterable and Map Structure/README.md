@@ -10,9 +10,9 @@ Map Structure
 
 1. Definisi: Struktur data Map adalah kumpulan pasangan key-nilai yang memetakan setiap key kepada nilai yang sesuai. Setiap key dalam Map harus unik dan nilai dapat diakses dengan menggunakan key tersebut.
 2. Jenis-jenis Map: Ada beberapa jenis Map dalam Java, termasuk:
-   • HashMap: Implementasi dasar Map yang menggunakan hashing untuk penyimpanan dan pencarian cepat.
-   • TreeMap: Implementasi yang menyimpan pasangan key-nilai dalam urutan terurut berdasarkan key, biasanya menggunakan struktur pohon merah-hitam.
-   • LinkedHashMap: Implementasi yang mempertahankan urutan sisipan elemen, serupa dengan HashMap tetapi dengan tambahan penjagaan urutan.
-   • WeakHashMap: Implementasi yang menggunakan referensi lemah untuk key, yang memungkinkan objek key yang tidak lagi digunakan untuk dihapus secara otomatis.
+• HashMap: Implementasi dasar Map yang menggunakan hashing untuk penyimpanan dan pencarian cepat.
+• TreeMap: Implementasi yang menyimpan pasangan key-nilai dalam urutan terurut berdasarkan key, biasanya menggunakan struktur pohon merah-hitam.
+• LinkedHashMap: Implementasi yang mempertahankan urutan sisipan elemen, serupa dengan HashMap tetapi dengan tambahan penjagaan urutan.
+• WeakHashMap: Implementasi yang menggunakan referensi lemah untuk key, yang memungkinkan objek key yang tidak lagi digunakan untuk dihapus secara otomatis.
 3. Penggunaan: Map digunakan untuk memetakan key ke nilai dan umumnya digunakan untuk menyimpan data yang membutuhkan akses cepat berdasarkan key. Map sering digunakan dalam aplikasi seperti penyimpanan data terstruktur, caching, dan pengindeksan.
 4. Iterasi pada Map: Selain akses langsung menggunakan key, juga dapat mengiterasi melalui Map menggunakan mekanisme seperti perulangan for-each atau iterator. Ini memungkinkan untuk mengakses dan memanipulasi setiap pasangan key-nilai dalam Map.
