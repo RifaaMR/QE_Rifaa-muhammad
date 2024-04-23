@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"checkout","As user i want to be able to checkout product","SUCCESS","2023-04-04T19:54:28.7530545+07:00[Asia/Jakarta]","0.0","12.16"
+"login","As user i have be able to success login","SUCCESS","2023-04-04T19:54:40.9274198+07:00[Asia/Jakarta]","0.0","7.45"
+"login","As an unregistered user i will see error response","SUCCESS","2023-04-04T19:54:48.3869259+07:00[Asia/Jakarta]","0.0","5.87"
+"product cart","As user i want to be able to add product to cart from homepage","SUCCESS","2023-04-04T19:54:54.270909+07:00[Asia/Jakarta]","0.0","5.74"
+"product cart","As user i want to be able to remove product from cart","SUCCESS","2023-04-04T19:55:00.0238284+07:00[Asia/Jakarta]","0.0","11.08"
+"product detail","As user i want to be able to see product detail","SUCCESS","2023-04-04T19:55:11.1160398+07:00[Asia/Jakarta]","0.0","20.75"
+"product detail","As user i want to add product to cart from detail page","SUCCESS","2023-04-04T19:55:31.873865+07:00[Asia/Jakarta]","0.0","7.54"

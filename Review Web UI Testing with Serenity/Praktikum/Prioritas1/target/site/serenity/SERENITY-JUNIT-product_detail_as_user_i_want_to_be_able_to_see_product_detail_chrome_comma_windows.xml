@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="product detail" skipped="0" tests="4" time="28.29" timestamp="2023-04-04 07:55:11"><testcase name="As user i want to be able to see product detail"/><testcase name="As user i want to add product to cart from detail page"/></testsuite>

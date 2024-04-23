@@ -1,0 +1,10 @@
+starter\stepDefinitions\ProductSteps.class
+starter\stepDefinitions\LoginSteps.class
+starter\object\Home.class
+starter\object\Checkout.class
+starter\CucumberTestSuite.class
+starter\stepDefinitions\CheckoutSteps.class
+starter\object\Product.class
+starter\stepDefinitions\CartSteps.class
+starter\object\Cart.class
+starter\object\Login.class

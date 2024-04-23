@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"login","As a registered user i want to be able to login","SUCCESS","2023-04-04T20:54:25.0634813+07:00[Asia/Jakarta]","0.0","9.44"
+"login","As a non registered user i want to try login with invalid credentials","SUCCESS","2023-04-04T20:54:34.5274566+07:00[Asia/Jakarta]","0.0","10.87"

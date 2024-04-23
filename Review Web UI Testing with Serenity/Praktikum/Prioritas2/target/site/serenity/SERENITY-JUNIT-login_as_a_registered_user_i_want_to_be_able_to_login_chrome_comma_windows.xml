@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="login" skipped="0" tests="3" time="20.32" timestamp="2023-04-04 08:54:25"><testcase name="As a registered user i want to be able to login"/><testcase name="As a non registered user i want to try login with invalid credentials"/></testsuite>
