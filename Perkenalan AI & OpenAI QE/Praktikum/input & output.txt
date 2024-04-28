@@ -1,0 +1,55 @@
+input : you are a software engineer, create test case for register feature, make sure positif and negatif case are included
+
+Output : To create test cases for a registration feature, it's important to cover both positive and negative cases to ensure comprehensive validation. Here are some test cases you can use:
+
+### Positive Test Cases:
+1. **Valid Registration**:
+   - **Input**: Valid username, email, password, and confirm password.
+   - **Expected Result**: Registration succeeds, user receives a welcome message, and a new account is created.
+
+2. **Minimum Length Requirements**:
+   - **Input**: Username with the minimum allowed length, password with the minimum allowed length, valid email.
+   - **Expected Result**: Registration succeeds, and a new account is created.
+
+3. **Maximum Length Requirements**:
+   - **Input**: Username and password with the maximum allowed length, valid email.
+   - **Expected Result**: Registration succeeds, and a new account is created.
+
+4. **Case Sensitivity**:
+   - **Input**: Usernames with varying cases (e.g., 'JohnDoe', 'johndoe', 'JOHNDOE'), valid email, and password.
+   - **Expected Result**: Registration succeeds, and a new account is created regardless of case.
+
+### Negative Test Cases:
+1. **Missing Fields**:
+   - **Input**: Username, email, or password is left blank.
+   - **Expected Result**: Registration fails, displaying an error message indicating the missing field(s).
+
+2. **Invalid Email Format**:
+   - **Input**: Valid username and password, but email with an invalid format (e.g., 'user@domain').
+   - **Expected Result**: Registration fails, displaying an error message about the invalid email format.
+
+3. **Password Mismatch**:
+   - **Input**: Valid username, email, password, but confirm password doesn't match.
+   - **Expected Result**: Registration fails, displaying an error message indicating password mismatch.
+
+4. **Duplicate Username or Email**:
+   - **Input**: Existing username or email used for registration.
+   - **Expected Result**: Registration fails, displaying an error message about the duplicate username or email.
+
+5. **Username Length Exceeds Limit**:
+   - **Input**: Username longer than the allowed limit, valid email and password.
+   - **Expected Result**: Registration fails, displaying an error message about username length.
+
+6. **Password Length Below Limit**:
+   - **Input**: Valid username and email, but password shorter than the minimum allowed length.
+   - **Expected Result**: Registration fails, displaying an error message about password length.
+
+7. **Weak Password**:
+   - **Input**: Valid username and email, but password without a combination of uppercase, lowercase, numbers, or special characters.
+   - **Expected Result**: Registration fails, displaying an error message about weak password.
+
+8. **SQL Injection Attempts**:
+   - **Input**: Username, email, or password containing SQL injection payloads (e.g., `' or 1=1 --`).
+   - **Expected Result**: Registration fails, with proper sanitization and error handling to prevent injection.
+
+These test cases cover a range of scenarios to ensure that the registration feature is robust, secure, and user-friendly. You can adjust or expand them based on specific requirements or additional business rules.
