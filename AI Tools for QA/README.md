@@ -1,0 +1,9 @@
+                                                     Rangkuman
+
+AI for QA adalah konsep penggunaan kecerdasan buatan (Artificial Intelligence) untuk membantu proses Quality Assurance (QA) dalam pengembangan perangkat lunak, memastikan bahwa perangkat lunak yang dihasilkan berkualitas tinggi dan bebas dari kesalahan atau bug.
+
+**Applitools** adalah platform yang menggunakan AI untuk pengujian visual pada aplikasi perangkat lunak. Alat ini memungkinkan pengembang dan tester untuk secara otomatis memeriksa tampilan antarmuka pengguna (UI), memastikan bahwa tampilan aplikasi konsisten dan sesuai dengan desain yang diharapkan. Dengan teknologi AI, Applitools membandingkan tampilan aktual dengan tampilan referensi, mendeteksi perbedaan visual, dan membantu tim QA menemukan dan memperbaiki bug visual dengan cepat. Ini sangat berguna untuk memastikan aplikasi terlihat baik di berbagai perangkat dan browser.
+
+**Chat GPT** adalah model bahasa buatan yang dirancang untuk mengotomatisasi dan meningkatkan interaksi teks. Dalam konteks QA, Chat GPT dapat digunakan untuk menjawab pertanyaan pengembang atau tester, memberikan panduan pengujian, atau menghasilkan laporan status pengujian secara otomatis. Ini juga dapat digunakan untuk dukungan pelanggan, membantu pengguna dengan masalah teknis atau bug yang dilaporkan. Kemampuan Chat GPT untuk memahami dan menghasilkan teks dengan konteks tertentu membuatnya berguna dalam mengotomatisasi aspek komunikasi dalam proses QA.
+
+Penggunaan Applitools dan Chat GPT dalam QA meningkatkan efisiensi, akurasi, dan kualitas pengujian perangkat lunak. Applitools menitikberatkan pada pengujian visual, sedangkan Chat GPT membantu dalam komunikasi dan pemahaman konteks pengujian. Kedua alat ini menggunakan kecerdasan buatan untuk memperkuat proses QA, membantu tim memastikan perangkat lunak yang lebih baik dan lebih andal.
