@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cannot Login with unregistered account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>714f4288-1849-474c-bd6e-d04a02f02012</testCaseGuid>
+</TestCaseEntity>
