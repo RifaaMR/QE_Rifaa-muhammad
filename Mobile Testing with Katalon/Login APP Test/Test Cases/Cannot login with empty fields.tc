@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cannot login with empty fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a91c8154-04ad-4a9b-b668-4ff1d5891114</testCaseGuid>
+</TestCaseEntity>
