@@ -1,0 +1,45 @@
+{
+  "id": "b68d6e7b-2450-4d5b-8eb1-559ca989c91b",
+  "version": "2.0",
+  "name": "Mini Project Web UI Testing",
+  "url": "https://mini-book-store-fe.vercel.app",
+  "tests": [{
+    "id": "30ab6451-6987-4855-998b-7a7e608ff98c",
+    "name": "Create a new book",
+    "commands": []
+  }, {
+    "id": "d6014c11-45c8-4980-93d5-d135f87ee022",
+    "name": "Cannot create a book with empty fields",
+    "commands": []
+  }, {
+    "id": "fd63481a-b305-485b-a558-16a071715b9b",
+    "name": "Cannot create a book with invalid publish year field",
+    "commands": []
+  }, {
+    "id": "4943318b-68b8-4dc3-869e-acb1885b1201",
+    "name": "View the author and title of the book ",
+    "commands": []
+  }, {
+    "id": "4f126ca4-13bf-40fe-aadb-dbfb1fcf36f1",
+    "name": "View all book information",
+    "commands": []
+  }, {
+    "id": "0d600ccc-7daa-4840-bf67-5c2df0a126a7",
+    "name": "Edit the book",
+    "commands": []
+  }, {
+    "id": "74aa7dfa-ae82-462a-8cc9-79475723d676",
+    "name": "Delete the book",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "b0a0e9f6-23ac-42fd-b421-1e045c213171",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

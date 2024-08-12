@@ -1,0 +1,424 @@
+{
+  "id": "b68d6e7b-2450-4d5b-8eb1-559ca989c91b",
+  "version": "2.0",
+  "name": "Mini Project Web UI Testing",
+  "url": "https://mini-book-store-fe.vercel.app",
+  "tests": [{
+    "id": "30ab6451-6987-4855-998b-7a7e608ff98c",
+    "name": "Create a new book",
+    "commands": [{
+      "id": "8d10f4a0-9904-460b-b17e-b60b54676741",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e5af203-40b1-4f12-9e26-eb43f3a201b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-sky-800",
+      "targets": [
+        ["css=.text-sky-800", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "51f7ad4a-d8a7-4863-8eb3-734bf7a581f6",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e282f9cd-a688-4082-bfb5-5bee9802a59e",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Harry pottah"
+    }, {
+      "id": "c2f6200a-7a48-447c-8840-a846a4143a17",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caa02412-1fbf-4571-9b5a-341804557b71",
+      "comment": "",
+      "command": "type",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Jordan"
+    }, {
+      "id": "04ee6348-a448-4e23-b57b-d55db2f5fb4c",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=publishYear",
+      "targets": [
+        ["id=publishYear", "id"],
+        ["css=#publishYear", "css:finder"],
+        ["xpath=//input[@id='publishYear']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "767acbbd-cf4a-4e20-a5e8-e5e252927abf",
+      "comment": "",
+      "command": "type",
+      "target": "id=publishYear",
+      "targets": [
+        ["id=publishYear", "id"],
+        ["css=#publishYear", "css:finder"],
+        ["xpath=//input[@id='publishYear']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2024"
+    }, {
+      "id": "af4fa7cf-1978-4516-9bf6-57459450ed54",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.p-2",
+      "targets": [
+        ["css=.p-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43a52b50-8634-4bf8-9f9e-58e13e45e25f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-2",
+      "targets": [
+        ["css=.p-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d6014c11-45c8-4980-93d5-d135f87ee022",
+    "name": "Cannot create a book with empty fields",
+    "commands": [{
+      "id": "f696f4fa-282c-4d65-b15b-7e2931e62af3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8733740-4223-41d6-867c-d14fd49c8d8e",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1068x440",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed6117e5-8d92-403e-8131-ebf0bb1bf438",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "css=.text-sky-800 > path:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48da0027-38d9-402d-870c-62550aa89d8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-sky-800 > path:nth-child(2)",
+      "targets": [
+        ["css=.text-sky-800 > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "083a1458-4c4e-421e-ba92-2a4979c7294f",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.p-2",
+      "targets": [
+        ["css=.p-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3bcf0ca-a927-48c3-885c-15b42acab811",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-2",
+      "targets": [
+        ["css=.p-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b0aeab7-5bee-4f31-986d-8f2ff95147fe",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.go1888806478",
+      "targets": [
+        ["css=.go1888806478", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fd63481a-b305-485b-a558-16a071715b9b",
+    "name": "Cannot create a book with invalid publish year field",
+    "commands": [{
+      "id": "02b0b833-5151-461a-90a7-4f413f404cf4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1604a4cb-9450-4d13-af1f-e888b669699c",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1068x440",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca5ab3b2-d1eb-41fc-8a0b-ed275446fe3e",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "css=.text-sky-800 > path:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a6faa10-c4a6-42f8-a3d3-cde40d0d20d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-sky-800 > path:nth-child(2)",
+      "targets": [
+        ["css=.text-sky-800 > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf79a1eb-425d-471b-a068-98b5d4b05fcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "213432e6-8dce-4c75-b436-7a6ee3a93986",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ikan"
+    }, {
+      "id": "19191706-10b1-44fa-9126-6d76b53c6220",
+      "comment": "",
+      "command": "click",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f699205c-68f7-41c8-9f40-e1e819e49920",
+      "comment": "",
+      "command": "type",
+      "target": "id=author",
+      "targets": [
+        ["id=author", "id"],
+        ["css=#author", "css:finder"],
+        ["xpath=//input[@id='author']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "bakar"
+    }, {
+      "id": "b8183865-464d-4775-9d32-9c6957d06257",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "id=publishYear",
+      "targets": [
+        ["id=publishYear", "id"],
+        ["css=#publishYear", "css:finder"],
+        ["xpath=//input[@id='publishYear']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d98a8791-5516-44de-a110-e2f5087728da",
+      "comment": "",
+      "command": "type",
+      "target": "id=publishYear",
+      "targets": [
+        ["id=publishYear", "id"],
+        ["css=#publishYear", "css:finder"],
+        ["xpath=//input[@id='publishYear']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "40fd6ab9-f8e9-4ab1-be7b-d882798b9f35",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.p-2",
+      "targets": [
+        ["css=.p-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "826d314a-4af1-4f54-a549-ddc3a3e88c2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-2",
+      "targets": [
+        ["css=.p-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59afd2a4-828c-4b1c-a39c-bd5fcf1c31bb",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=.go1888806478",
+      "targets": [
+        ["css=.go1888806478", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4f126ca4-13bf-40fe-aadb-dbfb1fcf36f1",
+    "name": "View all book information",
+    "commands": []
+  }, {
+    "id": "0d600ccc-7daa-4840-bf67-5c2df0a126a7",
+    "name": "Edit the book",
+    "commands": []
+  }, {
+    "id": "74aa7dfa-ae82-462a-8cc9-79475723d676",
+    "name": "Delete the book",
+    "commands": []
+  }, {
+    "id": "de20f4cf-d855-424b-8870-db1f37f0794a",
+    "name": "View the author and book title",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "b0a0e9f6-23ac-42fd-b421-1e045c213171",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://mini-book-store-fe.vercel.app/"],
+  "plugins": [{
+    "id": "fbnkflkahhlmhdgkddaafgnnokifobik",
+    "name": "Applitools",
+    "version": "1.0.0"
+  }],
+  "snapshot": {
+    "globalConfig": {
+      "snapshot": "const { Eyes, Target } = require('@applitools/eyes-selenium');global.Target = Target;const { ConsoleLogHandler, BatchInfo, AccessibilityLevel, AccessibilityGuidelinesVersion } = require('@applitools/eyes-sdk-core');let apiKey = process.env.APPLITOOLS_API_KEY, serverUrl = process.env.APPLITOOLS_SERVER_URL, appName = \"Mini Project Web UI Testing\", batchId = configuration.runId, batchName;"
+    },
+    "tests": [{
+      "id": "30ab6451-6987-4855-998b-7a7e608ff98c",
+      "snapshot": {
+        "commands": {
+          "51f7ad4a-d8a7-4863-8eb3-734bf7a581f6": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`title`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`title`)).webHook(preRenderHook));}",
+          "c2f6200a-7a48-447c-8840-a846a4143a17": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`author`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`author`)).webHook(preRenderHook));}",
+          "04ee6348-a448-4e23-b57b-d55db2f5fb4c": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`publishYear`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`publishYear`)).webHook(preRenderHook));}",
+          "af4fa7cf-1978-4516-9bf6-57459450ed54": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.p-2`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.p-2`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Create a new book\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }, {
+      "id": "d6014c11-45c8-4980-93d5-d135f87ee022",
+      "snapshot": {
+        "commands": {
+          "f8733740-4223-41d6-867c-d14fd49c8d8e": "await eyes.setViewportSize({width: 1068, height: 440});",
+          "ed6117e5-8d92-403e-8131-ebf0bb1bf438": "if (!opts.isNested) {await eyes.check(\"css=.text-sky-800 > path:nth-child(2)\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "083a1458-4c4e-421e-ba92-2a4979c7294f": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.p-2`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.p-2`)).webHook(preRenderHook));}",
+          "3b0aeab7-5bee-4f31-986d-8f2ff95147fe": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.go1888806478`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.go1888806478`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Cannot create a book with empty fields\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }, {
+      "id": "fd63481a-b305-485b-a558-16a071715b9b",
+      "snapshot": {
+        "commands": {
+          "1604a4cb-9450-4d13-af1f-e888b669699c": "await eyes.setViewportSize({width: 1068, height: 440});",
+          "ca5ab3b2-d1eb-41fc-8a0b-ed275446fe3e": "if (!opts.isNested) {await eyes.check(\"css=.text-sky-800 > path:nth-child(2)\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "b8183865-464d-4775-9d32-9c6957d06257": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.id(`publishYear`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.id(`publishYear`)).webHook(preRenderHook));}",
+          "40fd6ab9-f8e9-4ab1-be7b-d882798b9f35": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.p-2`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.p-2`)).webHook(preRenderHook));}",
+          "59afd2a4-828c-4b1c-a39c-bd5fcf1c31bb": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`.go1888806478`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`.go1888806478`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"Cannot create a book with invalid publish year field\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }]
+  },
+  "dependencies": {
+    "@applitools/eyes-selenium": "4.44.0"
+  },
+  "jest": {
+    "extraGlobals": ["Math"]
+  }
+}
